@@ -1,14 +1,14 @@
 void main(List<String> args) {
   Check check = Check();
-  check.check(23);
+  check.check(84);
 }
 
 class Check {
   void check(int a) {
-    if (a % 2 == 0) {
-      print("This is EVEN number.");
+    if (a % 4 == 0) {
+      print("This is leap year.");
     } else {
-      print("Odd Number");
+      print("Its not a leap year.");
     }
   }
 }
